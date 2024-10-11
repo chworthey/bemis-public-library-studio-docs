@@ -1,11 +1,20 @@
-site_name: The Studio Docs
+site_name: The Studio Learning Center
 site_url: http://localhost:8000/
 theme:
   name: material
   logo: assets/logo.svg
   palette:
-    primary: custom
+    scheme: default
+    primary: white
+    accent: pink
 extra_css:
   - stylesheets/extra.css
+copyright: Copyright &copy; 2024 Bemis Public Library — City of Littleton CO
 extra:
   generator: false
+plugins:
+  - privacy
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences

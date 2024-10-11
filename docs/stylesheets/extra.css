@@ -1,5 +1,65 @@
+/* latin-ext */
+@font-face {
+  font-family: 'New Amsterdam';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(/assets/fonts/NewAmsterdam/YA9Vr02Y5lucHqUlbEe51kBtp7CMi8_Q.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'New Amsterdam';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(/assets/fonts/NewAmsterdam/YA9Vr02Y5lucHqUlbEe51kBtp76Miw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
 :root {
-  --md-primary-fg-color:        #B71F36;
-  --md-primary-fg-color--light: #ECB7B7;
-  --md-primary-fg-color--dark:  #94172E;
+  --bemis-primary-color: #B71F36;
+  --unvisited-link-color: #750516;
+}
+
+.md-header__topic {
+  font-family: "New Amsterdam";
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: var(--bemis-primary-color);
+  font-style: normal;
+}
+
+.md-header__topic:first-child {
+  font-weight: 400;
+}
+
+.md-header__button.md-logo {
+  margin: 0;
+  padding: 0;
+}
+
+.md-header__button.md-icon {
+  padding: 0;
+}
+
+.md-header__button.md-icon svg {
+  fill: var(--bemis-primary-color);
+  height: 4rem;
+  width: 4rem;
+  padding: 2em;
+  margin: 0;
+}
+
+.md-header__button.md-logo img {
+  height: 4rem;
+  padding: 1em;
+}
+
+[data-md-color-scheme=default][data-md-color-primary=white] {
+  --md-typeset-a-color: #750516;
+}
+
+.md-footer {
+  background-color: #B81F36;
 }
