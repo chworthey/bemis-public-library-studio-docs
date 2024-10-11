@@ -1,6 +1,6 @@
 # Welcome to The Studio
 
-![Picture of The Studio](assets/images/TheStudio.webp)
+![Picture of The Studio](assets/images/studio.webp)
 
 ***A place for makers and creators.***
 
