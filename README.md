@@ -1,5 +1,7 @@
 # Littleton Bemis Public Library — The Studio Docs Project
 
+[![Azure Static Web Apps CI/CD](https://github.com/chworthey/bemis-public-library-studio-docs/actions/workflows/azure-static-web-apps-gray-stone-085c4c510.yml/badge.svg)](https://github.com/chworthey/bemis-public-library-studio-docs/actions/workflows/azure-static-web-apps-gray-stone-085c4c510.yml)
+
 The Studio is a makerspace located at Littleton Bemis Public Library.
 
 ![Picture of The Studio](docs/assets/images/studio.webp)
@@ -7,6 +9,9 @@ The Studio is a makerspace located at Littleton Bemis Public Library.
 This repository contains documentation sources for The Studio @ Littleton Bemis Public Library.
 
 **This is volunteer work done by Charlotte Worthey and does not represent Littleton Bemis Public Library or the docs in its final form.**
+
+## Live Demo Website
+[Demo Website](https://gray-stone-085c4c510.5.azurestaticapps.net/)
 
 ## Project Architecture
 
