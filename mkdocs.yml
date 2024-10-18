@@ -1,5 +1,5 @@
 site_name: The Studio Learning Center
-site_url: http://localhost:8000/
+site_url: https://wortheybemispldemo.z19.web.core.windows.net/
 theme:
   name: material
   logo: assets/logo.svg
@@ -10,13 +10,14 @@ theme:
     - navigation.path
     - navigation.top
     - navigation.expand
+  favicon: assets/favicon-32x32.png
   palette:
     scheme: default
     primary: white
     accent: pink
 extra_css:
   - stylesheets/extra.css
-copyright: Copyright &copy; 2024 Bemis Public Library — City of Littleton CO
+copyright: Copyright &copy; 2024 Charlotte Worthey — This is volunteer work done by Charlotte Worthey and does not represent Littleton Bemis Public Library or the docs in its final form.
 extra:
   generator: false
 plugins:

@@ -1,6 +1,12 @@
 # Littleton Bemis Public Library — The Studio Docs Project
 
-This repository contains the sources for the Littleton Bemis Public Library documentation.
+The Studio is a makerspace located at Littleton Bemis Public Library.
+
+![Picture of The Studio](docs/assets/images/studio.webp)
+
+This repository contains documentation sources for The Studio @ Littleton Bemis Public Library.
+
+**This is volunteer work done by Charlotte Worthey and does not represent Littleton Bemis Public Library or the docs in its final form.**
 
 ## Project Architecture
 
@@ -27,22 +33,39 @@ You only need to install things on a local computer if you want to develop a the
 
 I also recommend [VSCode](https://code.visualstudio.com/download) for editing the files generally speaking, but I will not include the instructions for that here.
 
-VSCode is an extensible text editor that can be opened in a directory and includes a terminal panel which is convenient. It also has a user interface for manipulating git if you don't want to use the command line which can be convenient.
+VSCode is an extensible text editor that can be opened in a directory and includes a terminal panel which is convenient. It also has a dedicated user interface for manipulating git without the command line.
+
+## Fetch Sources
+
+We need to start by grabbing the source code.
+```sh
+git clone https://github.com/chworthey/bemis-public-library-studio-docs.git studio-docs
+cd studio-docs
+```
+
+Note: You may instead download the sources as a zip from GitHub if you prefer to not use git.
+
+Optional: Open VSCode editor
+```sh
+code .
+```
 
 ## Install Python Dependencies
 
-For a first time run, you will need to run:
+For a first time run, you will need to run this command from a command line:
 ```sh
 poetry install
 ```
 
+Note: The working directory ie. `cd <SOME PATH>` should be the project directory, the same directory that contains this README.
+
 ## Reading Documents Locally
+
+This command will start a local development server. The server will watch for file changes and refresh any browser tabs pointed to the server URL upon file changes.
 
 Run:
 ```sh
 poetry run mkdocs serve
 ```
 
-Then, open up a browser to the printed URL, ie. [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
-
-@TODO: Finish
+After running the command, open up a browser to the printed localhost URL, ie. [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
