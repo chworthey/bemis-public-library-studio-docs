@@ -75,3 +75,10 @@
 .md-footer {
   background-color: #B81F36;
 }
+
+/* Mermaid printing bug... Setting height to hardware diagrams for now */
+@media print {
+  .tabbed-block:has(.mermaid) {
+    height: 300px;
+  }
+}
