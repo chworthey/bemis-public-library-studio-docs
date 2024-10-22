@@ -73,7 +73,7 @@ Please note these knobs:
 
 - **:fontawesome-solid-headphones: Volume** on the front: This control is only relevant if set up with mic monitoring. It increases and decreases the volume of the headphones.
 - **Gain** on the back: This control amplifies the mic input volume. If the recording is too quiet or too loud, try adjusting this knob. It is best practice to keep gain knob as low as possible and turn the mic input volume to 100% as described in [iMac System Settings section](#imac-system-settings).
-- **Pattern** on the back: This control changes the microphone's configuration according to the *Patterns Chart* in the next section.
+- **Pattern** on the back: This control changes the microphone's configuration according to the *Patterns Chart* in the next section. You may go ahead and configure this to your liking now.
 
 ### Patterns Chart
 | Pattern                  | Symbol                                                                        | Description                                                                                                                                                                                                                       |
@@ -173,6 +173,8 @@ Launch the Adobe Audition app from the Dock on the iMac desktop by clicking the 
 ![The Adobe Audition "Au" icon from the iMac Dock](../assets/images/imac-adobe-audition-button.webp)
 
 ### 2. Record
+
+Point the microphone to the ceiling, the front with the mute button facing towards you. Allow for space, do not talk directly into the microphone.
 
 Click the red circle record button in the Editor panel.
 
