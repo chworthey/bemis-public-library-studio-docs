@@ -56,6 +56,18 @@
   padding: 1em;
 }
 
+@media (width <= 600px) {
+  .md-header__topic {
+    font-size: 1rem;
+  }
+
+  .md-header__button.md-icon svg {
+    height: 2rem;
+    width: 2rem;
+    padding: 1em;
+  }
+}
+
 [data-md-color-scheme=default][data-md-color-primary=white] {
   --md-typeset-a-color: #750516;
 }
